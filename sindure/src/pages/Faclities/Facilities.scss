@@ -1,0 +1,37 @@
+// .from-left1{
+//   transform: translateX(-50%);
+// }
+
+// .from-right1{
+//     transform: translateX(50%);
+//   }
+
+//   .from-left1, .from-right1{
+// transition: transform 400ms ease-in ;
+//   }
+
+
+//   .from-left1.appear, .from-right1.appear{
+//     transition: translateX(0) ;
+//       }
+
+
+
+.from-left{
+    transform: translateX(-50%);
+    transition: transform 400ms ease-in;
+}
+
+.from-left.appear{
+    transform: translateX(0);
+}
+
+
+.from-right{
+    transform: translateX(50%);
+    transition: transform 400ms ease-in;
+}
+
+.from-right.appear{
+    transform: translateX(0);
+}
