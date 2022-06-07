@@ -40,9 +40,9 @@ function Navbar() {
          {/* <a class="active" href="#home">About us</a> */}
          </li>
        <li><a class="active" href="#home">Quality</a></li>
-  <li><a class="active" href="#home">Products</a></li>
+  <li>    <Link to='/Products'>Products</Link></li>
   <li><a href="#news">Clients</a></li>
-  <li><a href="#contact">Facilities</a></li>
+  <li> <Link to='/Facilities'>Facilities</Link></li>
   <li >
   <Link to='/'>Home</Link>
     </li>
