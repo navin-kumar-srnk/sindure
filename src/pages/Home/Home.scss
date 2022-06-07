@@ -10,7 +10,8 @@
     max-width: 100%;
     height: 100vh;
     width: 100vw;
-    position: relative
+    position: relative;
+    user-select: none;
   }
   
   .landCapCon{
@@ -24,8 +25,9 @@
   }
   
   .landCapCon h1{
-    font-size: 5rem;
-    width: 50vw;
+    font-size: 3rem;
+    width: 30rem;
+    // word-break: break-all;
     text-align: center;
     color: white;
     text-transform: uppercase;

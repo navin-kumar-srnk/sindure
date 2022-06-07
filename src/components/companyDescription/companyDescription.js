@@ -27,15 +27,12 @@ function CompanyDescription() {
 
 
     return (
-        <div className='h-100'>
-            <StyleRoot className='h-100'>
-                <div className='container-fluid h-100'>
-                    <div className='row h-100'>
-                        <div className='col-lg-12 col-md-12 col-sm-12 h-25'>
-                            <h1 className='text-center m-4' style={styles.bounceInDown}>Sample Title</h1>
+        <div className='h-100 '>
+               <div className='col-lg-12 col-md-12 col-sm-12 ' style={{height:'30%'}}>
+                            <h1 className='text-center m-2' style={styles.bounceInDown}>Sample Title</h1>
 
-
-                            <AnimatedText
+<p className='description'> Backed with decades of experience, cutting-edge infrastructure, and highly experienced skill inventory we support the leaders of the automotive industry. The precision and accuracy with which we manufacture the cold-forged and machined components is the reason why the major automotive industry companies trust us.      </p>
+                            {/* <AnimatedText
                                 style={{ "text-align": "center" }}
                                 type="words" // animate words or chars
                                 animation={{
@@ -53,34 +50,19 @@ function CompanyDescription() {
                                 threshold={0.1}
                                 rootMargin="20%"
                             >
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                            </AnimatedText>
+                           </AnimatedText> */}
                         </div>
-                        <div className='col-lg-12 col-md-12 col-sm-12 h-75 position-relative' style={{ overflow: "hidden" }}>
-                            {/* <div className="photobanner">
-                            {imageList.map((ele)=>{
-                                return <img src={ele} alt="" />
-                            })}
+            <StyleRoot  style={{height:'70vh'}}>
+                <div className='container-fluid h-100'>
+                    <div className='row h-100'>
+                     
+                        <div className="col-lg-1"></div>
+                        <div className='col-lg-19 col-md-12 col-sm-12 h-100 position-relative' style={{ overflow: "hidden" }}>
+                        
 
-    	
-    </div> */}
-                            {/* <figure className="scene">
+                            <div className="wrapper-images ">
 
-                                <div className="cube">
-                                    <div className="cube-face front">Front</div>
-                                    <div className="cube-face back">Back</div>
-                                    <div className="cube-face left">Left</div>
-                                    <div className="cube-face right">right</div>
-                                    <div className="cube-face top">top</div>
-                                    <div className="cube-face bottom">bottom</div>
-                                </div>
-
-                            </figure> */}
-
-
-                            <div className="wrapper-images">
-
-                                <div className="images-line">
+                                {/* <div className="images-line">
                                     <div className="line" style={{ "background-image": "url(https://i.scdn.co/image/ab67706f000000032a161bae1caf29ef62c71084)" }}>
                                         <div className="img" style={{ "background-image": "url(https://i.scdn.co/image/ab67706f000000032a161bae1caf29ef62c71084)" }}>as</div>
                                     </div>
@@ -128,7 +110,7 @@ function CompanyDescription() {
                                     <div className="line" style={{"background-image":"url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROANgnvpC541ZhYX2Hb7w7B_UWFBc3LVCDHw7oqTDLOH4m1WioQi2rJ-ALykzJ8xtJJAw&usqp=CAU)"}}>
                                         <div className="img" style={{"background-image":"url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROANgnvpC541ZhYX2Hb7w7B_UWFBc3LVCDHw7oqTDLOH4m1WioQi2rJ-ALykzJ8xtJJAw&usqp=CAU)"}}></div>
                                     </div>
-                                </div>
+                                </div> */}
                                 <div className="images-line">
                                     <div className="line" style={{ "background-image": "url(https://i.scdn.co/image/ab67706f000000032a161bae1caf29ef62c71084)" }}>
                                         <div className="img" style={{ "background-image": "url(https://i.scdn.co/image/ab67706f000000032a161bae1caf29ef62c71084)" }}>as</div>
@@ -534,6 +516,7 @@ function CompanyDescription() {
                             </div>
 
                         </div>
+                        <div className="col-lg-1"></div>
                     </div>
                 </div>
             </StyleRoot>

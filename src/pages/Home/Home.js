@@ -16,10 +16,10 @@ function Home() {
            
         <div className='vidCon' >
        <div className='landCapCon'>
-       <h1>
+       {/* <h1>
          Redefining Auto Component
   Manufacturing
-         </h1>
+         </h1> */}
        </div>
           <video className="landingVideo" autoPlay="autoplay" muted loop>
             <source type="video/mp4" src={landPageVid}></source>
@@ -28,10 +28,10 @@ function Home() {
   
    
   
-  <div className='position-relative' style={{height:'150vh'}}>
+  <div className='position-relative' >
   <CompanyDescription/>
   </div>
-  <div style={{height:'70vh'}}>
+  <div >
   <WhySindhur/>
   </div>
   <div style={{height:'100vh'}}>

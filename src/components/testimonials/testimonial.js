@@ -6,7 +6,9 @@ import { Carousel } from 'react-responsive-carousel';
 import img1 from '../../images/carbol-700x700.jpg'
 function Testimonial() {
 
-
+React.useEffect(()=>{
+  
+})
 
     return (
       <Carousel
@@ -16,6 +18,7 @@ function Testimonial() {
       showStatus={false}
       autoPlay={true}
       interval={6100}
+    
     >
       <div>
         <img src={img1} />
