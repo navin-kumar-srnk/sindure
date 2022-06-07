@@ -1,5 +1,9 @@
 import './Facilities.scss'
 import {useEffect} from 'react'
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
+import AnimatedText from 'react-animated-text-content';
+
 
 
 function Facilities(){
@@ -35,13 +39,17 @@ function Facilities(){
             })
             
     })
-
+    function fn() {
+        var element = document.getElementById("a");
+        element.classList.toggle("flip");
+     }
 
 
 
     return (
         <>
         <div style={{height:"100vh"}}></div>
+   
         <div className='container'>
             <div className='row m-4'>
                 <div className='col-lg-6'>
@@ -52,6 +60,7 @@ function Facilities(){
                 <div className='col-lg-6'   style={{display: "flex",
         alignItems: "center",
         justifyContent: "center"}}>
+            
                    <p className='from-right slide-in'>Get the highest quality components at cost-effective rates to meet
                         your specific needs. Our use of the latest and cutting-edge technology
                          in our manufacturing process renders our products the ultimate quality. Our customer-centricity with 
@@ -63,6 +72,7 @@ function Facilities(){
             <div className='col-lg-6' style={{display: "flex",
         alignItems: "center",
         justifyContent: "center"}}>
+            
                    <p className='from-left slide-in'>Get the highest quality components at cost-effective rates to meet
                         your specific needs. Our use of the latest and cutting-edge technology
                          in our manufacturing process renders our products the ultimate quality. Our customer-centricity with 
@@ -84,6 +94,7 @@ function Facilities(){
                 <div className='col-lg-6'  style={{display: "flex",
         alignItems: "center",
         justifyContent: "center"}}>
+            
                    <p className='from-right slide-in'>Get the highest quality components at cost-effective rates to meet
                         your specific needs. Our use of the latest and cutting-edge technology
                          in our manufacturing process renders our products the ultimate quality. Our customer-centricity with 
@@ -91,6 +102,65 @@ function Facilities(){
                          optimum quality consistently, at cost-effective rates. </p>
                 </div>
             </div>
+        </div>
+        <div className='container m-5' style={{height:"150vh"}}>
+           <div className='row h-50 m-4'>
+           <div className="gallery">
+        {/* <Carousel
+      showArrows={true}
+      infiniteLoop={true}
+      showThumbs={false}
+      showStatus={false}
+      autoPlay={true}
+      interval={6100}
+    > */}
+        {/* <div> */}
+	<a className="item flip-card"  target="_blank" >
+		<div className="flip-card-inner">
+			<div className="flip-text">
+				Image name
+			</div>
+			<div className="flip-img">
+				<div className="img-flex" style={{"backgroundImage":"url(https://mcdn.wallpapersafari.com/medium/52/85/pqj2K3.jpg)"}}>
+				</div>
+			</div>
+		</div>
+	</a>
+    {/* </div> */}
+ {/* </Carousel> */}
+
+    </div>
+
+           </div>
+           <div className='row h-50 m-4'>
+           <div className="gallery">
+        {/* <Carousel
+      showArrows={true}
+      infiniteLoop={true}
+      showThumbs={false}
+      showStatus={false}
+      autoPlay={true}
+      interval={6100}
+    > */}
+        {/* <div> */}
+
+    <a className="item flip-card"  target="_blank" >
+		<div className="flip-card-inner">
+			<div className="flip-text">
+				Image name1
+			</div>
+			<div className="flip-img">
+				<div className="img-flex" style={{"backgroundImage":"url(https://mcdn.wallpapersafari.com/medium/52/85/pqj2K3.jpg)"}}>
+				</div>
+			</div>
+		</div>
+	</a>
+    {/* </div> */}
+ {/* </Carousel> */}
+
+    </div>
+
+           </div>
         </div>
           
         </>

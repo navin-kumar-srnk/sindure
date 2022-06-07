@@ -57,27 +57,8 @@ function CompanyDescription() {
                             </AnimatedText>
                         </div>
                         <div className='col-lg-12 col-md-12 col-sm-12 h-75 position-relative' style={{ overflow: "hidden" }}>
-                            {/* <div className="photobanner">
-                            {imageList.map((ele)=>{
-                                return <img src={ele} alt="" />
-                            })}
-
-    	
-    </div> */}
-                            {/* <figure className="scene">
-
-                                <div className="cube">
-                                    <div className="cube-face front">Front</div>
-                                    <div className="cube-face back">Back</div>
-                                    <div className="cube-face left">Left</div>
-                                    <div className="cube-face right">right</div>
-                                    <div className="cube-face top">top</div>
-                                    <div className="cube-face bottom">bottom</div>
-                                </div>
-
-                            </figure> */}
-
-
+          
+                       
                             <div className="wrapper-images">
 
                                 <div className="images-line">

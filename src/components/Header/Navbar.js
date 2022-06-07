@@ -28,15 +28,26 @@ function Navbar() {
        <div className="linkCon">
        <ul>
        <li><a class="active" href="#home">Contact us</a></li>
+       <li><a href="#news">Clients</a></li>
+       <li><a class="active" href="#home">Quality</a></li>
        <li>
        <Link to='/About'>About us</Link>
          {/* <a class="active" href="#home">About us</a> */}
          </li>
-       <li><a class="active" href="#home">Quality</a></li>
-  <li><a class="active" href="#home">Products</a></li>
-  <li><a href="#news">Clients</a></li>
-  <li><a href="#contact">Facilities</a></li>
-  <li ><a href="#about">Home</a></li>
+       
+  <li>
+    {/* <a class="active" href="#home">Products</a> */}
+    <Link to='/Products'>Products</Link>
+    </li>
+ 
+  <li>
+    {/* <a href="#contact">Facilities</a> */}
+    <Link to='/Facilities'>Facilities</Link>
+    </li>
+  <li >
+    {/* <a href="#about">Home</a> */}
+    <Link to='/'>Home</Link>
+    </li>
 </ul>
        </div>
     </header>
