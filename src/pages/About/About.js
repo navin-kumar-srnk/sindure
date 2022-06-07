@@ -1,5 +1,5 @@
 import './About.scss'
-
+import Tilt from 'react-tilt'
 function About(){
 return (
    
@@ -122,6 +122,45 @@ To Excel in Cold Forging & Machining and Expand the Business Globally”
 </section>
 
 </div>
+<div style={{height:'60vh',marginTop:'100px',marginBottom:'100px'}} >
+<div class="container h-100">
+  <div className="row h-100">
+  <div className="col-lg-6 d-flex justify-content-center h-100">
+  <Tilt className="Tilt" options={{ max : 25 }} style={{ height: '100%', width: '100%' }} >
+<div class="box" >
+        <div class="imgBx h-100 w-100">
+          <img width="100%" height="100%" src="https://cdn.pixabay.com/photo/2016/11/19/11/37/automobile-1838782__340.jpg" alt="Fusca" title="Fusca" />
+        </div>
+        <div class="contentBx">
+          <h2> Basavaraj G Sindhur | Group Chairman</h2>
+          <p>
+          With 40 years of experience, Mr. Sindur is a visionary leader with a passion for taking the cold forging industry to the next level. His experience has helped him innovate newer processes and his understanding of the customers’ industry needs helped us build processes that produce the best of quality at minimum cost. His love for his customers helped Sindhur Forge evolve as a customer-centric company emphasising on customers’ benefits in all its endeavours. His dedication and vision has helped Sindhur Forge not only emerge as a trusted name in the industry but also to be positioned as a leader in the automotive and non-automotive part manufacturing industry.   </p>
+      </div>
+     </div>
+</Tilt>
+  </div>
+  <div className="col-lg-6 d-flex justify-content-center">
+
+  <Tilt className="Tilt" options={{ max : 25 }} style={{ height: '100%', width: '100%' }} >
+<div class="box" >
+        <div class="imgBx h-100 w-100">
+          <img width="100%" height="100%" src="https://cdn.pixabay.com/photo/2016/11/19/11/37/automobile-1838782__340.jpg" alt="Fusca" title="Fusca" />
+        </div>
+        <div class="contentBx">
+          <h2> Jayaraj B Sindhur | Director & CEO</h2>
+          <p>
+            With over 13 years of experience, and an MBA graduate from Ohio University, Jayaraj looks after the marketing of the organization among other things. He has been instrumental in establishing a lasting relationship with customers, positioning the company through ensuring delivery of quality products consistently and earning the trust of clientele. Under his leadership, Sindhur Forge has attained newer heights of excellence and reputation through delivery of quality and consistent value-add in all spheres of operations. 
+          </p>
+      </div>
+     </div>
+</Tilt>
+  </div>
+    </div>    
+
+
+    </div>
+</div>
+
      </div>
 )
 }

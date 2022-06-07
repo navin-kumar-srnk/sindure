@@ -26,7 +26,7 @@ code {
 
 
 body::-webkit-scrollbar {
-  width: 2.5rem;               /* width of the entire scrollbar */
+  width: 1rem;               /* width of the entire scrollbar */
   
 }
 
@@ -42,4 +42,40 @@ body::-webkit-scrollbar-thumb {
 
 body {
   overflow: overlay;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+html{
+  font-size: 16px;
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  html{
+    font-size: 35px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  html{
+    font-size: 40px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  html{
+    font-size: 40px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  html{
+    font-size: 40px;
+  }
 }

@@ -14,43 +14,48 @@ function Navbar() {
 
 
     if (e.path[1].scrollY >= 76) {
-      nav.style.backgroundColor = "#ff000052";
+      nav.style.backgroundColor = "black";
     } else {
       nav.style.backgroundColor = "transparent";
     }
   };
 
   return (
-    <header className="nav" id="nav">
-      <div className="logocon">
-       <img src={logo} alt="" />
-      </div>
-       <div className="linkCon">
-       <ul>
+    <div class="nav" id="nav">
+  <input type="checkbox" id="nav-check" />
+  <div class="nav-header">
+    <div class="nav-title h-100 d-flex align-items-center justify-content-center">
+     <div className="logocon">
+ <img src={logo} alt="" />
+</div>
+    </div>
+  </div>
+ 
+  
+  <div class="nav-links  ">
+  <ul>
        <li><a class="active" href="#home">Contact us</a></li>
-       <li><a href="#news">Clients</a></li>
-       <li><a class="active" href="#home">Quality</a></li>
-       <li>
+       <li className="nav-btn">
        <Link to='/About'>About us</Link>
          {/* <a class="active" href="#home">About us</a> */}
          </li>
-       
-  <li>
-    {/* <a class="active" href="#home">Products</a> */}
-    <Link to='/Products'>Products</Link>
-    </li>
- 
-  <li>
-    {/* <a href="#contact">Facilities</a> */}
-    <Link to='/Facilities'>Facilities</Link>
-    </li>
+       <li><a class="active" href="#home">Quality</a></li>
+  <li><a class="active" href="#home">Products</a></li>
+  <li><a href="#news">Clients</a></li>
+  <li><a href="#contact">Facilities</a></li>
   <li >
-    {/* <a href="#about">Home</a> */}
-    <Link to='/'>Home</Link>
+  <Link to='/'>Home</Link>
     </li>
 </ul>
-       </div>
-    </header>
+  </div>
+  <div class="nav-btn h-100 d-flex  align-items-center mr-sm-3">
+    <label for="nav-check" className="m-0">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+  </div>
+</div>
   );
 }
 
