@@ -137,6 +137,7 @@ p{
 }
 
 #sidebar .menu-box .logo img{
+	width: 30vw !important;
 	position:relative;
 	display:inline-block;
 	max-width:100%;	
