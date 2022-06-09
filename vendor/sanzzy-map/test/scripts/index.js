@@ -1,7 +1,7 @@
 $(function() {
     var map = new google.maps.Map($(".map-canvas")[0], {
         zoom: 14,
-        center: new google.maps.LatLng(40.72, -74),
+        center: new google.maps.LatLng(13.3379, 77.1173),
         mapTypeId: google.maps.MapTypeId.ROADMAP,
         clickableIcons: false
     });
@@ -9,7 +9,7 @@ $(function() {
     var marker = new google.maps.Marker({
         map: map,
         draggable: true,
-        position: new google.maps.LatLng(40.72, -74),
+        position: new google.maps.LatLng(13.3379, 77.1173),
         visible: true
     });
 
