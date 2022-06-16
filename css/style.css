@@ -205,6 +205,9 @@
   
   color:#ffffff;
 }
+.clearfix li a{
+  color:#000000 !important;
+}
 .p-bg-color,.scroll-top,.header-one .top-header .address-wrapper .quotes a:hover,.theme-menu-wrapper .right-widget .search-option form button,
 #mega-menu-holder ul.dropdown li:hover>a:before,.theme-button-one,#theme-main-banner .camera_caption .theme-button-one:hover,.callout-banner.no-bg .theme-button-one,
 #theme-main-banner .camera_pag .camera_pag_ul li.cameracurrent > span,#theme-main-banner .camera_pag .camera_pag_ul li:hover > span,.service-style-one .contact-text h5:before,
