@@ -202,7 +202,8 @@
 .blog-sidebar .sidebar-recent-post li .post a:hover,.blog-sidebar .sidebar-archives ul li a:hover,.blog-details .share-option .tag-meta li a:hover,.blog-details .share-option .social-icon li a:hover,
 .our-blog .comment-area .single-comment .comment a,.shop-page .single-product .product-name .price,.shop-page .single-product:hover .product-name h5 a,.shop-page .single-product .product-name .add-to-cart a,
 .shop-details .product-details .product-info .price,.faq-page .panel-group .panel-heading h6 a:before {
-  color:#001a57;
+  
+  color:#ffffff;
 }
 .p-bg-color,.scroll-top,.header-one .top-header .address-wrapper .quotes a:hover,.theme-menu-wrapper .right-widget .search-option form button,
 #mega-menu-holder ul.dropdown li:hover>a:before,.theme-button-one,#theme-main-banner .camera_caption .theme-button-one:hover,.callout-banner.no-bg .theme-button-one,
@@ -493,7 +494,7 @@ body .theme-button-one:hover {background:#000f32; }
 #theme-main-banner .camera_caption p {
   font-size: 26px;
   line-height: 35px;
-  color: #556382;
+  color: #ffffff;
   font-weight: 300;
 }
 #theme-main-banner .camera_caption .theme-button-one {background: #fff;}
