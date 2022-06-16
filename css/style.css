@@ -692,7 +692,7 @@ body .theme-button-one:hover {background:#000f32; }
 /*----------------------- Our Team -----------------*/
 .our-team .team-member {margin-top: 30px; text-align: center;}
 .our-team .wrapper {margin-top: 25px;}
-.our-team .team-member .image-box img {width: 100%;border-radius: 5px 5px 0 0;}
+.our-team .team-member .image-box img {width: 100%;height:40vh !important ;border-radius: 5px 5px 0 0;}
 .our-team .team-member .image-box {position: relative;overflow: hidden;}
 .our-team .team-member .text {
   padding: 13px 0;
@@ -1369,7 +1369,7 @@ body .theme-button-one:hover {background:#000f32; }
   border-radius: 5px 5px 0 0;
   overflow: hidden;
 }
-.core-values .single-value-block .image-box  img {width: 100%;}
+.core-values .single-value-block .image-box  img {width: 100%; height: 80vh;}
 .core-values .single-value-block .image-box .overlay {
   position: absolute;
   width: 100%;
