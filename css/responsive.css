@@ -45,6 +45,8 @@
 /*(min-width: 992px) and (max-width: 1199px)*/
 
 @media (max-width: 991px) {
+
+  
   #mega-menu-holder>ul> li.has-submenu> a {padding-right: 52px;}
   .section-spacing,.faq-section,.why-we-best,.error-page {margin-bottom: 80px;}
   .top-feature .main-content {padding: 30px 15px;}
